@@ -410,7 +410,7 @@
     unimport "^0.1.6"
     untyped "^0.4.4"
 
-"@nuxt/kit@^3.0.0-rc.6":
+"@nuxt/kit@3.0.0-rc.6", "@nuxt/kit@^3.0.0-rc.6":
   version "3.0.0-rc.6"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.0.0-rc.6.tgz#b59c10639cb591bdc5a63164fb352b344230a065"
   integrity sha512-+lxSd6dSWlAzMXfGOPcY4856xnMF1Ck1rycFUZ+K2QYiDXphq/fiW2eMaWLVvqgPyL2Box2WzVDZJ6C5ceptcw==
@@ -561,6 +561,14 @@
     webpack-hot-middleware "^2.25.1"
     webpack-virtual-modules "^0.4.4"
     webpackbar "^5.0.2"
+
+"@pinia/nuxt@^0.3.1":
+  version "0.3.1"
+  resolved "http://registry.npm.qima-inc.com/@pinia/nuxt/download/@pinia/nuxt-0.3.1.tgz#30d9a3fee43c4ff485694ecad4b44fdfe064079e"
+  integrity sha1-MNmj/uQ8T/SFaU7K1LRP3+BkB54=
+  dependencies:
+    "@nuxt/kit" "3.0.0-rc.6"
+    pinia ">=2.0.17"
 
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.21"
@@ -817,7 +825,7 @@
     "@vue/compiler-dom" "3.2.37"
     "@vue/shared" "3.2.37"
 
-"@vue/devtools-api@^6.1.4":
+"@vue/devtools-api@^6.1.4", "@vue/devtools-api@^6.2.1":
   version "6.2.1"
   resolved "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.2.1.tgz#6f2948ff002ec46df01420dfeff91de16c5b4092"
   integrity sha512-OEgAMeQXvCoJ+1x8WyQuVZzFo0wcyCmUR3baRVLmKBo1LmYZWMlRiXlux5jd0fqVJu6PfDbOrZItVqUEzLobeQ==
@@ -3730,6 +3738,14 @@ pify@^6.0.0:
   resolved "http://registry.npm.qima-inc.com/pify/download/pify-6.0.0.tgz#b7e212f97963ed9b78653fb3c449801861a9f0ad"
   integrity sha1-t+IS+Xlj7Zt4ZT+zxEmAGGGp8K0=
 
+pinia@>=2.0.17:
+  version "2.0.17"
+  resolved "http://registry.npm.qima-inc.com/pinia/download/pinia-2.0.17.tgz#f925e5e4f73c15e16dfb4838176a9ca50752f26b"
+  integrity sha1-+SXl5Pc8FeFt+0g4F2qcpQdS8ms=
+  dependencies:
+    "@vue/devtools-api" "^6.2.1"
+    vue-demi "*"
+
 pkg-types@^0.3.2, pkg-types@^0.3.3:
   version "0.3.3"
   resolved "https://registry.npmjs.org/pkg-types/-/pkg-types-0.3.3.tgz#3c25e45274e1c586ec7811dcc3449afde846e463"
@@ -5023,7 +5039,7 @@ vue-bundle-renderer@^0.3.9:
   dependencies:
     bundle-runner "^0.0.1"
 
-vue-demi@^0.13.5:
+vue-demi@*, vue-demi@^0.13.5:
   version "0.13.5"
   resolved "http://registry.npm.qima-inc.com/vue-demi/download/vue-demi-0.13.5.tgz#d5eddbc9eaefb89ce5995269d1fa6b0486312092"
   integrity sha1-1e3byervuJzlmVJp0fprBIYxIJI=
