@@ -19,18 +19,25 @@
 
 <script setup lang="ts">
 import useCounterStore from '~/stores/user'
+
 const userStore = useCounterStore()
-const { data: initialData } = await useAsyncData('homeFetchData', () => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve({
-        seoInfo: {
-          title: 123123
-        }
-      })
-    }, 100)
-  })
-})
+const { data: initialData } = await useAsyncData(
+  'homeFetchData',
+  () => {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve({
+          seoInfo: {
+            title: 123123
+          }
+        })
+      }, 100)
+    })
+  },
+  {
+    lazy: true
+  }
+)
 // useHead({
 //   title: 'My App',
 //   // or, instead:
