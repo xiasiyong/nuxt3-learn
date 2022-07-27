@@ -1,16 +1,18 @@
-const useCounterStore = defineStore("counter", {
+const useCounterStore = defineStore('counter', {
   state: () => ({ count: 12, userInfo: {} }),
   getters: {
-    double: (state) => state.count * 2,
+    double: (state) => {
+      return state.count * 2
+    }
   },
   actions: {
     increment() {
-      this.count++;
+      this.count++
     },
     setUserInfo(userInfo) {
-      this.userInfo = userInfo;
-    },
-  },
-});
+      this.userInfo = userInfo
+    }
+  }
+})
 
-export default useCounterStore;
+export default useCounterStore
