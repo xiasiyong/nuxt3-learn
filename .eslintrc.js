@@ -8,7 +8,21 @@ module.exports = {
   globals: {
     defineNuxtPlugin: true,
     useAsyncData: true,
-    defineStore: true
+    defineStore: true,
+    useHead: true,
+    useCookie: true,
+    useError: true,
+    useFetch: true,
+    useHydration: true,
+    useLazyAsyncData: true,
+    useLazyFetch: true,
+    useNuxtApp: true,
+    useRequestEvent: true,
+    useRequestHeaders: true,
+    useRoute: true,
+    useRouter: true,
+    useState: true,
+    useRouter: true
   },
   rules: {
     'vue/singleline-html-element-content-newline': 0,
