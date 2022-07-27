@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div>home</div>
+    <div class="bg-red-500">
+        <div class="text-xl">home</div>
         <div>userInfo: {{userStore.userInfo}}</div>
         <div>count: {{userStore.count}}</div>
         <button @click="userStore.increment">increment</button>
