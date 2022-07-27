@@ -13,6 +13,9 @@ const { data } = await useAsyncData('count', () => {
             resolve({aaa: 12345})
         }, 500)
     })
+}, {
+  server: true,
+  lazy: true
 })
 userStore.setUserInfo(data)
 </script>
