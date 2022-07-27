@@ -21,7 +21,6 @@ export default defineNuxtConfig({
       {
         autoImports: ['defineStore']
       }
-    ],
-    '@nuxtjs/eslint-module'
+    ]
   ]
 })

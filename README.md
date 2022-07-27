@@ -1,42 +1,11 @@
-# Nuxt 3 Minimal Starter
+# 极致移动电商
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## eslint
 
-## Setup
+### 开发环境检测 eslint
 
-Make sure to install the dependencies:
+### 提交代码的时候校验 eslint
 
-```bash
-# yarn
-yarn install
+### eslint 规则
 
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+1. 检测 image 的 alt 属性 TODO

@@ -8,6 +8,9 @@
     <div class="text-xl">home</div>
     <div>userInfo: {{ userStore.userInfo }}</div>
     <div>count: {{ userStore.count }}</div>
+    <img
+      src="https://img.yzcdn.cn/upload_files/2020/12/28/Fquc7zJkCCHFqdcVDuv_i6UiLgY2.png"
+    />
     <h2 class="theme">i18n: {{ $t('34a4621cd2d144188ce5ba3d4d5c2a9b') }}</h2>
     <button @click="userStore.increment">increment</button>
     <NuxtLink to="/about">about</NuxtLink>

@@ -1,7 +1,7 @@
 const isDev = process.env.NODE_ENV === 'development'
 
+// 有的规则，想要开发的时候是warn，提交的时候是error，比如no-undef
 const customerWarnLevel = isDev ? 1 : 2
-console.log('test1', customerWarnLevel, process.env.NODE_ENV)
 
 module.exports = {
   extends: ['@nuxtjs/eslint-config-typescript'],
@@ -28,6 +28,7 @@ module.exports = {
     'vue/singleline-html-element-content-newline': 0,
     'space-before-function-paren': 0,
     'no-undef': customerWarnLevel,
-    '@typescript-eslint/no-unused-vars': customerWarnLevel
+    '@typescript-eslint/no-unused-vars': customerWarnLevel,
+    'vue/html-self-closing': 0
   }
 }
