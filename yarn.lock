@@ -280,6 +280,62 @@
   resolved "http://registry.npm.qima-inc.com/@csstools/selector-specificity/download/@csstools/selector-specificity-2.0.1.tgz#b6b8d81780b9a9f6459f4bfe9226ac6aefaefe87"
   integrity sha1-trjYF4C5qfZFn0v+kiasau+u/oc=
 
+"@intlify/core-base@9.1.10":
+  version "9.1.10"
+  resolved "http://registry.npm.qima-inc.com/@intlify/core-base/download/@intlify/core-base-9.1.10.tgz#cbd3099f375c789a1b974f3ea79b6efb8bb148fa"
+  integrity sha1-y9MJnzdceJobl08+p5tu+4uxSPo=
+  dependencies:
+    "@intlify/devtools-if" "9.1.10"
+    "@intlify/message-compiler" "9.1.10"
+    "@intlify/message-resolver" "9.1.10"
+    "@intlify/runtime" "9.1.10"
+    "@intlify/shared" "9.1.10"
+    "@intlify/vue-devtools" "9.1.10"
+
+"@intlify/devtools-if@9.1.10":
+  version "9.1.10"
+  resolved "http://registry.npm.qima-inc.com/@intlify/devtools-if/download/@intlify/devtools-if-9.1.10.tgz#8704852a4fa547df43df71a16b1cc4b27e758aa3"
+  integrity sha1-hwSFKk+lR99D33GhaxzEsn51iqM=
+  dependencies:
+    "@intlify/shared" "9.1.10"
+
+"@intlify/message-compiler@9.1.10":
+  version "9.1.10"
+  resolved "http://registry.npm.qima-inc.com/@intlify/message-compiler/download/@intlify/message-compiler-9.1.10.tgz#271f5e1cb65f3cec4b1fb243e50615747613f4be"
+  integrity sha1-Jx9eHLZfPOxLH7JD5QYVdHYT9L4=
+  dependencies:
+    "@intlify/message-resolver" "9.1.10"
+    "@intlify/shared" "9.1.10"
+    source-map "0.6.1"
+
+"@intlify/message-resolver@9.1.10":
+  version "9.1.10"
+  resolved "http://registry.npm.qima-inc.com/@intlify/message-resolver/download/@intlify/message-resolver-9.1.10.tgz#fb1dabdec2e29942df26f47e19444278a6e2f070"
+  integrity sha1-+x2r3sLimULfJvR+GURCeKbi8HA=
+
+"@intlify/runtime@9.1.10":
+  version "9.1.10"
+  resolved "http://registry.npm.qima-inc.com/@intlify/runtime/download/@intlify/runtime-9.1.10.tgz#70582a16810f68953d1cbf7183c8107a9137b580"
+  integrity sha1-cFgqFoEPaJU9HL9xg8gQepE3tYA=
+  dependencies:
+    "@intlify/message-compiler" "9.1.10"
+    "@intlify/message-resolver" "9.1.10"
+    "@intlify/shared" "9.1.10"
+
+"@intlify/shared@9.1.10":
+  version "9.1.10"
+  resolved "http://registry.npm.qima-inc.com/@intlify/shared/download/@intlify/shared-9.1.10.tgz#9e2527276b43ae3f354c4015eb04f855d9d7a707"
+  integrity sha1-niUnJ2tDrj81TEAV6wT4VdnXpwc=
+
+"@intlify/vue-devtools@9.1.10":
+  version "9.1.10"
+  resolved "http://registry.npm.qima-inc.com/@intlify/vue-devtools/download/@intlify/vue-devtools-9.1.10.tgz#c62535d86742bcd16593806a4fcae49f6fc8ae6d"
+  integrity sha1-xiU12GdCvNFlk4BqT8rkn2/Irm0=
+  dependencies:
+    "@intlify/message-resolver" "9.1.10"
+    "@intlify/runtime" "9.1.10"
+    "@intlify/shared" "9.1.10"
+
 "@ioredis/commands@^1.1.1":
   version "1.2.0"
   resolved "https://registry.npmjs.org/@ioredis/commands/-/commands-1.2.0.tgz#6d61b3097470af1fdbbe622795b8921d42018e11"
@@ -882,7 +938,7 @@
     "@vue/compiler-dom" "3.2.37"
     "@vue/shared" "3.2.37"
 
-"@vue/devtools-api@^6.1.4", "@vue/devtools-api@^6.2.1":
+"@vue/devtools-api@^6.0.0-beta.7", "@vue/devtools-api@^6.1.4", "@vue/devtools-api@^6.2.1":
   version "6.2.1"
   resolved "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.2.1.tgz#6f2948ff002ec46df01420dfeff91de16c5b4092"
   integrity sha512-OEgAMeQXvCoJ+1x8WyQuVZzFo0wcyCmUR3baRVLmKBo1LmYZWMlRiXlux5jd0fqVJu6PfDbOrZItVqUEzLobeQ==
@@ -3201,6 +3257,11 @@ joycon@^3.0.1:
   resolved "http://registry.npm.qima-inc.com/joycon/download/joycon-3.1.1.tgz#bce8596d6ae808f8b68168f5fc69280996894f03"
   integrity sha1-vOhZbWroCPi2gWj1/GkoCZaJTwM=
 
+js-cookie@^3.0.1:
+  version "3.0.1"
+  resolved "http://registry.npm.qima-inc.com/js-cookie/download/js-cookie-3.0.1.tgz#9e39b4c6c2f56563708d7d31f6f5f21873a92414"
+  integrity sha1-njm0xsL1ZWNwjX0x9vXyGHOpJBQ=
+
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -4969,7 +5030,7 @@ source-map-support@^0.5.21, source-map-support@~0.5.20:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
 
-source-map@^0.6.0, source-map@^0.6.1:
+source-map@0.6.1, source-map@^0.6.0, source-map@^0.6.1:
   version "0.6.1"
   resolved "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
@@ -5591,6 +5652,16 @@ vue-demi@*, vue-demi@^0.13.5:
   version "0.13.5"
   resolved "http://registry.npm.qima-inc.com/vue-demi/download/vue-demi-0.13.5.tgz#d5eddbc9eaefb89ce5995269d1fa6b0486312092"
   integrity sha1-1e3byervuJzlmVJp0fprBIYxIJI=
+
+vue-i18n@^9.1.10:
+  version "9.1.10"
+  resolved "http://registry.npm.qima-inc.com/vue-i18n/download/vue-i18n-9.1.10.tgz#7ad516b89ba28debb90fc4181c9a2faec9ad97f9"
+  integrity sha1-etUWuJuijeu5D8QYHJovrsmtl/k=
+  dependencies:
+    "@intlify/core-base" "9.1.10"
+    "@intlify/shared" "9.1.10"
+    "@intlify/vue-devtools" "9.1.10"
+    "@vue/devtools-api" "^6.0.0-beta.7"
 
 vue-loader@^17.0.0:
   version "17.0.0"

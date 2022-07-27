@@ -3,6 +3,7 @@
         <div class="text-xl">home</div>
         <div>userInfo: {{userStore.userInfo}}</div>
         <div>count: {{userStore.count}}</div>
+        <h2 class="theme">i18n: {{ $t("34a4621cd2d144188ce5ba3d4d5c2a9b") }}</h2>
         <button @click="userStore.increment">increment</button>
         <NuxtLink to="/about">about</NuxtLink>
     </div>
@@ -10,5 +11,9 @@
 
 <script setup lang="ts">
 import useCounterStore from '~/stores/user'
+import {useI18n} from 'vue-i18n'
+const i18n = useI18n()
+const {t} = i18n
+console.log('i18n', t("34a4621cd2d144188ce5ba3d4d5c2a9b"))
 const userStore = useCounterStore()
 </script>
