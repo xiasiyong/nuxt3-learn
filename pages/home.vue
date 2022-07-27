@@ -12,6 +12,6 @@
 <script setup lang="ts">
 import useCounterStore from '~/stores/user'
 const userStore = useCounterStore()
-const a = 1
+const a = 12
 console.log(a)
 </script>
