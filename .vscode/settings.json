@@ -1,7 +1,9 @@
 {
-    "cSpell.words": [
-        "composables",
-        "Nuxt",
-        "nuxtjs"
-    ]
+  "cSpell.words": [
+    "allvalue",
+    "composables",
+    "Nuxt",
+    "nuxtjs"
+  ],
+  "nuxt.isNuxtApp": false
 }
